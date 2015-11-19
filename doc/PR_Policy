@@ -1,0 +1,34 @@
+Pull Request Policy:
+====================
+
+The Tutora project as a whole (meaning all its code repos) has
+one BDUG (Benevolent Dictator Until Graduation) and each subproject
+within Tutora has at most 2 Advocates.
+
+For every repository, only the BDUG and the repo's Advocates have
+write permissions, which also means that they are responsible for
+anything that goes wrong.
+
+So the main developer workflow is the following:
+1] If the change that you want to apply, or the
+   bug that you want to fix, is not listed in the
+   issues of the repo, please submit an issue
+   first.
+2] Fork the specific repository
+3] Apply your changes
+4] Submit a pull request
+5] If your code does not come with tests please
+   explain why and describe how you tested your
+   changes.
+6] Await for other developers and at least one
+   Advocate to review the code and give you feedback.
+7] If there is something wrong then go back to 1],
+   else you are ready to submit your code change.
+8] Email the BDUG or the appropriate Advocate for
+   the code you changed and attach your patch on
+   the email. On the email you should also mention
+   the developers and the Advocate that approved
+   your code review. They will push your patch to
+   master (using your username and email as a
+   commiter).
+
